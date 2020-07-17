@@ -1,13 +1,3 @@
-
-
-
-
-
-
-
-
-
-
 class Chinese:
     def speak(self):
         print("我是中国学生,使用中文发言")
@@ -28,7 +18,4 @@ s1 = Chinese()
 s2 = English()
 s3 = Japanese()
 
-
-s1.speak()
-s2.speak()
-s3.speak()
+ask(s1)
